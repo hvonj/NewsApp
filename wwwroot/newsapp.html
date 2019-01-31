@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Newsapp</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="img/icons8-reddit-64.png" />
+</head>
+<body>
+
+    <div class="topbuttons">
+        <button onclick="clickSeed()" class="btn-inline">Seed</button>
+        <button onclick="clickStatArea()" class="btn-inline">Statistics</button>
+        <button onclick="clickShowAllNews()" class="btn-inline">ShowAllNews</button>
+        <button onclick="clickRecreate()" class="btn-inline">Recreate</button>
+        <button onclick="clickShowAddNews()" class="btn-inline">Add</button>
+        <button onclick="clickShowUpdate()" class="btn-inline">Update</button>
+
+    </div>
+
+    <div id="newsList" style="display: none">
+    </div>
+
+    <div id="addArea" style="display: none">
+        <h3>Add news</h3>
+
+        Header: <input id="addAreaHeader" type="text" />
+        Category: <select id="addAreaCategory"></select>
+        Intro: <input id="addAreaIntro" type="text" />
+        Body: <input id="addAreaBody" type="text" />
+
+        <button onclick="clickAddNews()">Add</button>
+        
+        <div id="addAreaError"></div>
+
+    </div>
+
+
+    <div id="updateArea" style="display: none">
+        <h3>Update</h3>
+        Id: <input id="updateAreaId" type="text" readonly="readonly" />
+        Header: <input id="updateAreaHeader" type="text" />
+        Category: <select id="updateAreaCategory"></select>
+        Intro: <input id="updateAreaIntro" type="text" />
+        Body: <input id="updateAreaBody" type="text" />
+        <button onclick="clickUpdateNews()">Update</button>
+        <div id="updateAreaError"></div>
+    </div>
+    
+    <div id="statArea" style="display: none">
+        <h3>Statistics</h3>
+
+        Number of news: <span id="nrOfNews"></span>
+    </div>
+<script src="/js/main.js"></script>
+</body>
+</html>

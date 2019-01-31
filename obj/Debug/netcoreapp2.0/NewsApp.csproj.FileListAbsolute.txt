@@ -1,0 +1,11 @@
+C:\Projekt\AcceleratedLearning\API\NewsApp\bin\Debug\netcoreapp2.0\NewsApp.deps.json
+C:\Projekt\AcceleratedLearning\API\NewsApp\bin\Debug\netcoreapp2.0\NewsApp.runtimeconfig.json
+C:\Projekt\AcceleratedLearning\API\NewsApp\bin\Debug\netcoreapp2.0\NewsApp.runtimeconfig.dev.json
+C:\Projekt\AcceleratedLearning\API\NewsApp\bin\Debug\netcoreapp2.0\NewsApp.dll
+C:\Projekt\AcceleratedLearning\API\NewsApp\bin\Debug\netcoreapp2.0\NewsApp.pdb
+C:\Projekt\AcceleratedLearning\API\NewsApp\obj\Debug\netcoreapp2.0\NewsApp.csprojAssemblyReference.cache
+C:\Projekt\AcceleratedLearning\API\NewsApp\obj\Debug\netcoreapp2.0\NewsApp.csproj.CoreCompileInputs.cache
+C:\Projekt\AcceleratedLearning\API\NewsApp\obj\Debug\netcoreapp2.0\NewsApp.AssemblyInfoInputs.cache
+C:\Projekt\AcceleratedLearning\API\NewsApp\obj\Debug\netcoreapp2.0\NewsApp.AssemblyInfo.cs
+C:\Projekt\AcceleratedLearning\API\NewsApp\obj\Debug\netcoreapp2.0\NewsApp.dll
+C:\Projekt\AcceleratedLearning\API\NewsApp\obj\Debug\netcoreapp2.0\NewsApp.pdb
